@@ -1,9 +1,8 @@
 <div class="standby-container">
 
   <img src="/assets/img/video.png" class="ms-5 mb-4" alt="">
-  <img src="/assets/img/escucha.png" class="ms-5 mt-4" alt="" (click)="play()" >
+  <img src="/assets/img/escucha.png" class="ms-5 mt-4" alt="" [routerLink]="['/player']" >
 
   <img src="/assets/img/next.png" class="back-btn" alt="" [routerLink]="['/artist']" >
-  <audio #player id="player" volume="0.5" [src]="'/assets/tracks/'+artist.audio"></audio>
 
 </div>

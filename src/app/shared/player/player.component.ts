@@ -31,6 +31,7 @@ export class PlayerComponent implements OnInit {
     setTimeout(() => {
       this.audioPlayer = document.getElementById('player') as HTMLAudioElement
       this.totalTimeString = this.setMinuteAndSecondFormat(this.audioPlayer.duration);
+      this.audioPlayer.play()
     }, 100)
   }
 
