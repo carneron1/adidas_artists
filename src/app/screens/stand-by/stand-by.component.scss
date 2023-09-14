@@ -1,0 +1,17 @@
+.standby-container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/assets/img/fondo_black.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-custom{
+  font-size: 4em;
+  padding: .5em;
+  border: 2px solid white;
+}

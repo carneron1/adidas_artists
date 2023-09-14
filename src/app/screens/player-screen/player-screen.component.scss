@@ -1,0 +1,26 @@
+.player-container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.player{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.back-btn{
+  position: absolute;
+  left: 80px;
+  bottom: 85px;
+  transform: rotate(180deg);
+  width: 130px;
+}
+
+.name-img{
+  position: absolute;
+  right: 80px;
+  bottom: 90px;
+  height: 110px;
+}

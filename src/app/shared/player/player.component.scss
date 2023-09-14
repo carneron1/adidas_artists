@@ -1,0 +1,49 @@
+.player{
+  width: 80vw;
+  height: 400px;
+  // background-color: rgba(0, 0, 0, 0.388);
+  border-radius: 20px;
+}
+
+.play-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.388);
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.pause-btn{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.388);
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.song-name{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 500;
+  font-size: 2.5em;
+}
+
+h3{
+  color: white;
+  font-size: 4em;
+}
