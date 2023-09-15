@@ -19,8 +19,8 @@ export class StandByComponent {
       this.stateService.artist = {
         name: 'rozas',
         image: 'rozas.jpeg',
-        audio: 'rozas.mp3',
-        video: 'rozas',
+        audio: 'rozas.mp4',
+        video: 'rozas-v.mp4',
         songName: 'Demasiao'
       }
     }
@@ -28,8 +28,8 @@ export class StandByComponent {
       this.stateService.artist = {
         name: 'dandara',
         image: 'dandara.jpg',
-        audio: 'dandara.mp3',
-        video: 'dandara',
+        audio: 'dandara.mp4',
+        video: 'dandara-v.mp4',
         songName: 'Feelings'
       }
     }
@@ -37,8 +37,8 @@ export class StandByComponent {
       this.stateService.artist = {
         name: 'clavijo',
         image: 'clavijo.jpg',
-        audio: 'clavijo.mp3',
-        video: 'clavijo',
+        audio: 'clavijo.mp4',
+        video: 'clavijo-v.mp4',
         songName: 'Cariño'
       }
     }

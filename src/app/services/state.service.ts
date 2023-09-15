@@ -9,8 +9,8 @@ export class StateService {
   public artist: Artist = {
     name: 'rozas',
     image: 'rozas.jpeg',
-    audio: 'rozas.mp3',
-    video: 'rozas',
+    audio: 'rozas.mp4',
+    video: 'rozas-v.mp4',
     songName: 'Demasiao'
 
   }

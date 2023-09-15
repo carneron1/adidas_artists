@@ -1,10 +1,14 @@
-<div class="player-container" [ngStyle]="containerStyle" [routerLink]="['/select-screen']">
+<!-- <div class="player-container" [ngStyle]="containerStyle" [routerLink]="['/select-screen']"> -->
+  <div class="player-container" [routerLink]="['/select-screen']">
+  <video width="1080" height="1920" [volume]="0.5" autoplay>
+    <source [src]="'/assets/video/'+artist.audio" type="video/mp4">
+  </video>
 
-  <custom-player class="player"></custom-player>
+  <!-- <custom-player class="player"></custom-player> -->
 
   <img src="/assets/img/next.png" class="back-btn" alt="" [routerLink]="['/select-screen']" >
 
-  <img [src]="nameImg" alt="" class="name-img">
+  <!-- <img [src]="nameImg" alt="" class="name-img"> -->
 
   
 </div>

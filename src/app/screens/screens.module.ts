@@ -7,6 +7,7 @@ import { SharedModule } from '../shared/shared.module';
 import { PlayerScreenComponent } from './player-screen/player-screen.component';
 import { ArtistScreenComponent } from './artist-screen/artist-screen.component';
 import { SelectScreenComponent } from './select-screen/select-screen.component';
+import { VideoScreenComponent } from './video-screen/video-screen.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SelectScreenComponent } from './select-screen/select-screen.component';
     StandByComponent,
     PlayerScreenComponent,
     ArtistScreenComponent,
-    SelectScreenComponent
+    SelectScreenComponent,
+    VideoScreenComponent
   ],
   imports: [
     CommonModule,
